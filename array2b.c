@@ -28,8 +28,6 @@ T Array2b_new(int width, int height, int size, int blocksize){
     array_2b->size = size;
     array_2b->blocksize = blocksize;
 
-    Array2b_new_64K_block();
-
     return array_2b;
 
 }
